@@ -1,0 +1,56 @@
+/* Main Blog Structure */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Poetry Card Container */
+.post {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Main Heading */
+h2 {
+    text-align: center;
+    color: #1a252f;
+    margin-bottom: 5px;
+}
+
+/* Date Styling */
+.post-date {
+    text-align: center;
+    color: #7f8c8d;
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* Language Version Headings */
+h3 {
+    color: #2980b9;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+/* Poem Lines */
+p {
+    line-height: 1.8;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+/* Section Divider */
+hr {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 40px 0;
+}
